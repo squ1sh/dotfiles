@@ -100,3 +100,7 @@ alias tnew='tmux new -s'
 
 # VIM aliases
 alias vim='nvim'
+
+# git aliases
+alias giti='git commit --interactive'
+alias gitrh='git reset --hard'
