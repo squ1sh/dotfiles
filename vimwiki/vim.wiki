@@ -1,0 +1,21 @@
+= Shortcuts =
+
+<C-[>   alias for <Esc>  
+
+<*>     search for word on cursor
+
+= Plugins =
+
+== vim-surround ==
+
+{prefix}{motion}{surround}
+* prefix - cs/ds/ys
+* motion - vim motion
+* surround - surrounding characters such as [], {}, '', "", etc.
+
+cs      change surroundings
+ds      delete surroundings
+ys      add surroundings
+
+
+

@@ -51,7 +51,10 @@ ZSH_THEME="awesomepanda"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux)
+plugins=(
+  git
+  tmux
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,6 +90,9 @@ alias zedit='vim ~/.zshrc && source ~/.zshrc'
 alias zsource='source ~/.zshrc'
 alias vimconfig='vim ~/.vimrc'
 
+alias trl='tree -L 1'
+alias trll='tree -L 2'
+
 # PHP helper aliases
 alias rede='composer install && yarn install'
 
@@ -104,3 +110,6 @@ alias vim='nvim'
 # git aliases
 alias giti='git commit --interactive'
 alias gitrh='git reset --hard'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
